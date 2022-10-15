@@ -1,0 +1,20 @@
+{
+    "name": "goofybnu/encryption",
+    "description": "Lib para criptografar /descriptografar dados",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Carlos Ricardo Schmitz",
+            "email": "goofybnu@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "GoofyBNU\\Encryption\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0"
+    }
+}
